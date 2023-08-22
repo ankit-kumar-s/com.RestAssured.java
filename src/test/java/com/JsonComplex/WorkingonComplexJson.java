@@ -10,7 +10,12 @@ public class WorkingonComplexJson {
 		
 	int count =	js.getInt("courses.size()");
 		System.out.println(count);
-	
+		
+		int totalamount = js.getInt("dashboard.purchaseAmount");
+		System.out.println(totalamount);
+		
+		String title =js.get("courses[2].title");
+	System.out.println(title);
 	}
 
 }
